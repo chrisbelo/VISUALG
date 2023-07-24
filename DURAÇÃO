@@ -1,0 +1,26 @@
+Algoritmo "DURACAO"
+
+Var
+
+   DURACAO, HORA, RESTO, MINUTOS, SEGUNDOS:INTEIRO
+
+Inicio
+
+      ESCREVAL("Digite a duracao em segundos: ")
+      LEIA(DURACAO)
+      
+      
+      HORA <- DURACAO \ 3600
+      RESTO <- DURACAO % 3600
+      MINUTOS <- RESTO \ 60
+      SEGUNDOS <- RESTO % 60
+      
+      
+      
+      
+      
+      ESCREVAL(HORA, ":", MINUTOS, ":", SEGUNDOS)
+
+
+
+Fimalgoritmo
