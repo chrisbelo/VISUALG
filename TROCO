@@ -1,0 +1,24 @@
+Algoritmo "TROCO"
+
+Var
+
+   PRECO, DINHEIRO, TROCO: REAL
+   QUANTIDADE: INTEIRO
+
+Inicio
+
+      escreval("Preço unitário do produto: ")
+      leia(PRECO)
+      escreval("Quantidade comprada: ")
+      leia(QUANTIDADE)
+      escreval("Dinheiro recebido: ")
+      leia(DINHEIRO)
+      
+      TROCO <- DINHEIRO - (PRECO * QUANTIDADE)
+
+      escreval
+      escreval("TROCO = ", TROCO:2:2)
+      
+
+
+Fimalgoritmo
