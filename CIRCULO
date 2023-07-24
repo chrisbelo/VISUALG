@@ -1,0 +1,19 @@
+Algoritmo "CIRCULO"
+
+Var
+
+    raio, area: real
+
+
+Inicio
+
+    escreval("Digite o valor do raio do circulo: ")
+    leia(raio)
+    
+    area <- 3.14159 * (raio * raio)
+    
+    escreval("AREA = ",area:2:3)
+
+
+
+Fimalgoritmo
