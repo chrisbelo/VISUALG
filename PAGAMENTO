@@ -1,0 +1,20 @@
+Algoritmo "PAGAMENTO"
+
+Var
+      NOME: CARACTERE
+      VALOR_HORA, HORAS, TOTAL: REAL
+
+Inicio
+
+      ESCREVAL("Nome: ")
+      LEIA(NOME)
+      ESCREVAL("Valor por hora: ")
+      LEIA(VALOR_HORA)
+      ESCREVAL("Horas trabalhadas: ")
+      LEIA(HORAS)
+
+      TOTAL <- VALOR_HORA * HORAS
+
+      ESCREVAL("O pagamento para ", NOME, " deve ser ", TOTAL:2:2)
+
+Fimalgoritmo
