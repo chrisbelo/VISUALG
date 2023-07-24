@@ -1,0 +1,20 @@
+Algoritmo "SOMA"
+
+Var
+
+   num1, num2: inteiro
+   soma: inteiro
+
+Inicio
+
+      escreval("Digite o valor de X: ")
+      leia(num1)
+      escreval("Digite o valor de Y: ")
+      leia(num2)
+      
+      soma <- num1 + num2
+      
+      escreval("SOMA = ",soma)
+
+
+Fimalgoritmo
